@@ -1,13 +1,23 @@
-import React from 'react'
+
+import Home from "./pages/home";
+import Events from "./pages/events";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const App = () => {
-  return (
-    <div>
-      <h1>
-        Hello world
-      </h1>
-    </div>
-  )
-}
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
 
-export default App
+    },
+    {
+      path: "/events/:eventId",
+      element: <Events />,
+    },
+  ]);
+  return (
+    <RouterProvider router={router} />
+  );
+};
+
+export default App;
