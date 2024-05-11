@@ -13,7 +13,7 @@ const dummyData = [
     {
         id: 1,
         imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eventbrite.com%2Fd%2Fny--new-york%2Fevents%2F&psig=AOvVaw1Xz3W5R3z4g6Z5bHJ0O9X3&ust=1627846440512000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKjJxuqMqfECFQAAAAAdAAAAABAD',
-        name: 'Event 1',
+        name: 'DeerHack 2028',
         date: '2021-08-01',
         location: 'New York',
         description: 'This is event 1'
@@ -21,7 +21,7 @@ const dummyData = [
     {
         id: 2,
         imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eventbrite.com%2Fd%2Fny--new-york%2Fevents%2F&psig=AOvVaw1Xz3W5R3z4g6Z5bHJ0O9X3&ust=1627846440512000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKjJxuqMqfECFQAAAAAdAAAAABAD',
-        name: 'Event 2',
+        name: 'Being Human',
         date: '2021-08-02',
         location: 'New York',
         description: 'This is event 2'
@@ -29,7 +29,7 @@ const dummyData = [
     {
         id: 3,
         imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eventbrite.com%2Fd%2Fny--new-york%2Fevents%2F&psig=AOvVaw1Xz3W5R3z4g6Z5bHJ0O9X3&ust=1627846440512000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKjJxuqMqfECFQAAAAAdAAAAABAD',
-        name: 'Event 3',
+        name: 'Mero Hackathon',
         date: '2021-08-03',
         location: 'New York',
         description: 'This is event 3'
