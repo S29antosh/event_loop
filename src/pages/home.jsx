@@ -27,7 +27,7 @@ const Home = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
           <button
-            className="bg-[#00D809] text-white font-semibold border-indigo-400 rounded-md p-2"
+            className="bg-[#00D809] hover:bg-[#00d807af] text-white font-semibold border-indigo-400 rounded-md p-2"
             onClick={(e) => {
               e.preventDefault();
               setSearch("");

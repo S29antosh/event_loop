@@ -27,7 +27,7 @@ const EventCard = ({ data }) => {
             {shortDescription}
           </p> */}
           <Link to={`/events/${data?.id}`}>
-            <button className="bg-[#00D809] text-white font-semibold border-indigo-400 rounded-md mt-3 p-2">
+            <button className="bg-[#00D809] hover:bg-[#00d807af] text-white font-semibold border-indigo-400 rounded-md mt-3 p-2">
               Register now
             </button>
           </Link>
