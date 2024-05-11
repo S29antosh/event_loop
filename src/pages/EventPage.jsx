@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
 import dummyData from "../dummy";
+import { useEffect } from "react";
 
 const EventPage = () => {
   let params = useParams();
