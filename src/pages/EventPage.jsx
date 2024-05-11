@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import dummyData from "../dummy";
+import { useEffect } from "react";
 
 const EventPage = () => {
   const { eventId } = useParams();
