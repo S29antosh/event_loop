@@ -4,7 +4,7 @@ import EventCard from "../components/EventCard";
 
 const Home = () => {
   return (
-    <div className="container bg-blue-300 mx-auto ">
+    <div className="container bg-blue-300 mx-auto min-h-screen ">
       <SearchBox />
       <EventCard />
     </div>
