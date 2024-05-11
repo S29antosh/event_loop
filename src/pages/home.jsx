@@ -82,6 +82,9 @@ const Home = () => {
           </button>
         </form>
       </div>
+      <h1 className="text-center font-bold text-xl">
+        Select Event
+      </h1>
 
       <div className=" Event-section flex gap-3 justify-center min-h-screen ">
         {data

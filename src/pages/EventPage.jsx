@@ -28,7 +28,7 @@ const EventPage = () => {
   };
 
   return (
-    <div className="flex gap-3 justify-center items-center">
+    <div className="flex gap-3 justify-evenly items-center">
       {data ? (
         <div className="flex mt-8 flex-col gap-2 justify-center items-center">
           <h1 className="mb-2 text-xl font-medium leading-tight">
@@ -39,13 +39,17 @@ const EventPage = () => {
             src={data.imageUrl}
             alt={data.name}
           />
-          <p>{data.date}</p>
-          <p>{data.description}</p>
+          <p>Date: {data.date}</p>
+          <p className=" text-gray-500
+          w-[600px]
+
+
+          ">{data.description}</p>
         </div>
       ) : (
         <h1>Event not found</h1>
       )}
-      <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
+      <form className="flex flex-col  gap-5" onSubmit={handleSubmit}>
         <input
           required
           className="border-2 border-gray-300 p-2 rounded-md"
@@ -56,9 +60,9 @@ const EventPage = () => {
         />
         <input
           required
-          className="border-2 border-gray-300 p-2 rounded-md"
-          type="email"
-          placeholder="Enter your email"
+          className="border-2 min-w-[30rem] border-gray-300 p-2 rounded-md"
+          type="number"
+          placeholder="Enter your fee"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
