@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import EventCard from "./components/EventCard";
 
 const App = () => {
   return (
     <div>
-      <h1>
-        Hello world
-      </h1>
+      <EventCard />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
