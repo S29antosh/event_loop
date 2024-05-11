@@ -1,6 +1,6 @@
 import Home from "./pages/home";
-import Events from "./pages/events";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import EventPage from "./pages/EventPage";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -10,7 +10,7 @@ const App = () => {
     },
     {
       path: "/events/:eventId",
-      element: <Events />,
+      element: <EventPage />,
     },
   ]);
   return <RouterProvider router={router} />;
