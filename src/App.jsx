@@ -1,12 +1,19 @@
-import React from "react";
-import EventCard from "./components/EventCard";
+import Home from "./pages/home";
+import Events from "./pages/events";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const App = () => {
-  return (
-    <div>
-      <EventCard />
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/events/:eventId",
+      element: <Events />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 };
 
 export default App;
